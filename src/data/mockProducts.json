@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Fone Bluetooth Premium",
+    "category": "Eletrônicos",
+    "price": 15.90,
+    "unit": "un.",
+    "minOrder": 50,
+    "isHot": false,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Relógio Digital Sport",
+    "category": "Eletrônicos",
+    "price": 12.50,
+    "unit": "un.",
+    "minOrder": 100,
+    "isHot": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Kit Organizador 5 Peças",
+    "category": "Casa & Decoração",
+    "price": 8.90,
+    "unit": "kit",
+    "minOrder": 30,
+    "isHot": false,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1590725140246-20092bcbd60e?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Mochila Executiva USB",
+    "category": "Moda & Acessórios",
+    "price": 42.00,
+    "unit": "un.",
+    "minOrder": 20,
+    "isHot": false,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Garrafa Térmica Inox 500ml",
+    "category": "Casa & Decoração",
+    "price": 18.50,
+    "unit": "un.",
+    "minOrder": 50,
+    "isHot": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Cabo USB-C Trançado 2m",
+    "category": "Eletrônicos",
+    "price": 4.90,
+    "unit": "un.",
+    "minOrder": 200,
+    "isHot": false,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=400&q=80"
+  }
+]
