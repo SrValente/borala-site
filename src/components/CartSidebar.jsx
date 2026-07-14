@@ -1,10 +1,17 @@
 'use client';
 import React from 'react';
+import { useRouter } from 'next/navigation';
 import { useCart } from '@/context/CartContext';
 import './CartSidebar.css';
 
 export default function CartSidebar() {
-  const { isCartOpen, setIsCartOpen, cartItems, removeFromCart, cartTotal, updateQuantity } = useCart();
+  const router = useRouter();
+  const { isCartOpen, setIsCartOpen, cartItems, removeFromCart, cartTotal, updateQuantity, clearCart } = useCart();
+
+  const handleCheckout = () => {
+    setIsCartOpen(false);
+    router.push('/checkout');
+  };
 
   if (!isCartOpen) return null;
 
@@ -56,7 +63,7 @@ export default function CartSidebar() {
               <span>Total do Orçamento:</span>
               <strong>R$ {cartTotal.toFixed(2).replace('.', ',')}</strong>
             </div>
-            <button className="btn btn-action w-full">Finalizar Pedido</button>
+            <button className="btn btn-action w-full" onClick={handleCheckout}>Finalizar Pedido</button>
           </div>
         )}
       </div>
