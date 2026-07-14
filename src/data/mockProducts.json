@@ -1,68 +1,38 @@
 [
   {
     "id": 1,
-    "name": "Cimento CP II-Z 32 Votoran 50kg",
-    "category": "Material Básico",
-    "price": 32.50,
-    "unit": "sc.",
-    "minOrder": 40,
+    "name": "Parafuso Drywall GN25",
+    "category": "Fixadores",
+    "description": "3,5x25mm, fosfatizado preto. Caixa com 1.000 unidades.",
+    "price": 35.90,
+    "unit": "cx",
+    "minOrder": 100,
     "isHot": true,
     "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1588806307908-1cc0e1ef38ea?auto=format&fit=crop&w=400&q=80"
   },
   {
     "id": 2,
-    "name": "Tijolo Baiano 8 Furos 9x19x19",
-    "category": "Material Básico",
-    "price": 0.85,
-    "unit": "un.",
-    "minOrder": 1000,
+    "name": "Parafuso Chipboard 4x40",
+    "category": "Fixadores",
+    "description": "4,0x40mm, bicromatizado amarelo. Caixa com 500 unidades.",
+    "price": 28.50,
+    "unit": "cx",
+    "minOrder": 150,
     "isHot": false,
     "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1596781258607-bbbd2eb73c1d?auto=format&fit=crop&w=400&q=80"
   },
   {
     "id": 3,
-    "name": "Tinta Acrílica Fosca Branco 18L Suvinil",
-    "category": "Acabamento",
-    "price": 349.90,
-    "unit": "lt.",
-    "minOrder": 10,
-    "isHot": false,
-    "isNew": true,
-    "imageUrl": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?auto=format&fit=crop&w=400&q=80"
-  },
-  {
-    "id": 4,
-    "name": "Porcelanato Calacata 80x80cm Eliane",
-    "category": "Revestimento",
-    "price": 89.90,
-    "unit": "m²",
-    "minOrder": 50,
+    "name": "Trena de Aço Retrátil 5m (Borala)",
+    "category": "Ferramentas",
+    "description": "5mx19mm, estojo emborrachado. Personalização OEM Borala.",
+    "price": 12.90,
+    "unit": "un",
+    "minOrder": 500,
     "isHot": true,
-    "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80"
-  },
-  {
-    "id": 5,
-    "name": "Argamassa ACIII Cinza 20kg Quartzolit",
-    "category": "Material Básico",
-    "price": 35.90,
-    "unit": "sc.",
-    "minOrder": 30,
-    "isHot": false,
-    "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=400&q=80"
-  },
-  {
-    "id": 6,
-    "name": "Tubo PVC Esgoto 100mm 6m Tigre",
-    "category": "Hidráulica",
-    "price": 45.00,
-    "unit": "br.",
-    "minOrder": 20,
-    "isHot": false,
     "isNew": true,
-    "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=400&q=80"
   }
 ]

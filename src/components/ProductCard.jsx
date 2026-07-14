@@ -21,6 +21,11 @@ export default function ProductCard({ product }) {
       <div className="product-info">
         <div className="category-label">{product.category}</div>
         <h3 className="product-name">{product.name}</h3>
+        {product.description && (
+          <p className="product-description" style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '8px', lineHeight: '1.4' }}>
+            {product.description}
+          </p>
+        )}
         
         <div className="price-section">
           <span className="currency">R$</span>
