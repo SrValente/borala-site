@@ -9,7 +9,7 @@
     "minOrder": 100,
     "isHot": true,
     "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1588806307908-1cc0e1ef38ea?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "/images/parafuso_drywall.png"
   },
   {
     "id": 2,
@@ -21,11 +21,11 @@
     "minOrder": 150,
     "isHot": false,
     "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1596781258607-bbbd2eb73c1d?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "/images/parafuso_chipboard.png"
   },
   {
     "id": 3,
-    "name": "Trena de Aço Retrátil 5m (Borala)",
+    "name": "Trena de Aço Retrátil 5m",
     "category": "Ferramentas",
     "description": "5mx19mm, estojo emborrachado. Personalização OEM Borala.",
     "price": 12.90,
@@ -33,6 +33,42 @@
     "minOrder": 500,
     "isHot": true,
     "isNew": true,
-    "imageUrl": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "/images/trena_aco.png"
+  },
+  {
+    "id": 4,
+    "name": "Martelo Unha 25mm",
+    "category": "Ferramentas",
+    "description": "Cabeça em aço forjado, cabo com empunhadura de borracha.",
+    "price": 22.50,
+    "unit": "un",
+    "minOrder": 100,
+    "isHot": false,
+    "isNew": false,
+    "imageUrl": "/images/martelo_unha.png"
+  },
+  {
+    "id": 5,
+    "name": "Jogo de Chaves Philips/Fenda",
+    "category": "Ferramentas",
+    "description": "Kit profissional com 6 peças em aço cromo vanádio.",
+    "price": 35.00,
+    "unit": "kit",
+    "minOrder": 50,
+    "isHot": true,
+    "isNew": false,
+    "imageUrl": "/images/chave_fenda.png"
+  },
+  {
+    "id": 6,
+    "name": "Bucha de Fixação Universal 8mm",
+    "category": "Fixadores",
+    "description": "Bucha plástica com anel. Pacote com 1.000 unidades.",
+    "price": 45.90,
+    "unit": "pct",
+    "minOrder": 200,
+    "isHot": false,
+    "isNew": true,
+    "imageUrl": "/images/bucha_fixacao.png"
   }
 ]
