@@ -1,10 +1,11 @@
 'use client';
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
+import { useCart } from '@/context/CartContext';
 import './Header.css';
 
 export default function Header() {
-  const [cartCount, setCartCount] = useState(0);
+  const { cartCount, setIsCartOpen } = useCart();
 
   return (
     <header className="header glass">
@@ -18,13 +19,13 @@ export default function Header() {
         
         <nav className="main-nav">
           <Link href="/" className="nav-link active">Home</Link>
-          <Link href="#catalogo" className="nav-link">Catálogo</Link>
-          <Link href="#integracoes" className="nav-link">Integrações API</Link>
+          <Link href="/#catalogo" className="nav-link">Catálogo</Link>
         </nav>
 
         <div className="actions-section">
-          <button className="btn btn-secondary">Login</button>
-          <button className="btn btn-primary cart-btn">
+          <Link href="/login" className="btn btn-secondary">Entrar</Link>
+          <Link href="/cadastro" className="btn btn-primary" style={{ marginRight: '16px' }}>Cadastrar</Link>
+          <button className="btn btn-action cart-btn" onClick={() => setIsCartOpen(true)}>
             Carrinho
             {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
           </button>

@@ -1,7 +1,11 @@
+'use client';
 import React from 'react';
+import { useCart } from '@/context/CartContext';
 import './ProductCard.css';
 
 export default function ProductCard({ product }) {
+  const { addToCart } = useCart();
+
   return (
     <div className="product-card animate-fade-in">
       <div className="product-image-wrapper">
@@ -26,7 +30,10 @@ export default function ProductCard({ product }) {
         
         <div className="min-order">Pedido mínimo: {product.minOrder} {product.unit}</div>
         
-        <button className="btn btn-primary w-full add-to-cart-btn">
+        <button 
+          className="btn btn-action w-full add-to-cart-btn"
+          onClick={() => addToCart(product)}
+        >
           Adicionar ao Carrinho
         </button>
       </div>
