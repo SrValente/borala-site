@@ -6,6 +6,7 @@ import './Header.css';
 
 export default function Header() {
   const { cartCount, setIsCartOpen } = useCart();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   return (
     <header className="header glass">
@@ -17,18 +18,24 @@ export default function Header() {
           </Link>
         </div>
         
-        <nav className="main-nav">
-          <Link href="/" className="nav-link active">Home</Link>
-          <Link href="/#catalogo" className="nav-link">Catálogo</Link>
-        </nav>
+        <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          ☰
+        </button>
 
-        <div className="actions-section">
-          <Link href="/login" className="btn btn-secondary">Entrar</Link>
-          <Link href="/cadastro" className="btn btn-primary" style={{ marginRight: '16px' }}>Cadastrar</Link>
-          <button className="btn btn-action cart-btn" onClick={() => setIsCartOpen(true)}>
-            Carrinho
-            {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
-          </button>
+        <div className={`desktop-nav ${isMobileMenuOpen ? 'open' : ''}`}>
+          <nav className="main-nav">
+            <Link href="/" className="nav-link active" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
+            <Link href="/#catalogo" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Catálogo</Link>
+          </nav>
+
+          <div className="actions-section">
+            <Link href="/login" className="btn btn-secondary">Entrar</Link>
+            <Link href="/cadastro" className="btn btn-primary" style={{ marginRight: '16px' }}>Cadastrar</Link>
+            <button className="btn btn-action cart-btn" onClick={() => { setIsCartOpen(true); setIsMobileMenuOpen(false); }}>
+              Carrinho
+              {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
+            </button>
+          </div>
         </div>
       </div>
     </header>
