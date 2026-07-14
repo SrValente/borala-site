@@ -1,68 +1,68 @@
 [
   {
     "id": 1,
-    "name": "Fone Bluetooth Premium",
-    "category": "Eletrônicos",
-    "price": 15.90,
-    "unit": "un.",
-    "minOrder": 50,
-    "isHot": false,
-    "isNew": true,
-    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80"
+    "name": "Cimento CP II-Z 32 Votoran 50kg",
+    "category": "Material Básico",
+    "price": 32.50,
+    "unit": "sc.",
+    "minOrder": 40,
+    "isHot": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80"
   },
   {
     "id": 2,
-    "name": "Relógio Digital Sport",
-    "category": "Eletrônicos",
-    "price": 12.50,
+    "name": "Tijolo Baiano 8 Furos 9x19x19",
+    "category": "Material Básico",
+    "price": 0.85,
     "unit": "un.",
-    "minOrder": 100,
-    "isHot": true,
+    "minOrder": 1000,
+    "isHot": false,
     "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=400&q=80"
   },
   {
     "id": 3,
-    "name": "Kit Organizador 5 Peças",
-    "category": "Casa & Decoração",
-    "price": 8.90,
-    "unit": "kit",
-    "minOrder": 30,
+    "name": "Tinta Acrílica Fosca Branco 18L Suvinil",
+    "category": "Acabamento",
+    "price": 349.90,
+    "unit": "lt.",
+    "minOrder": 10,
     "isHot": false,
-    "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1590725140246-20092bcbd60e?auto=format&fit=crop&w=400&q=80"
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?auto=format&fit=crop&w=400&q=80"
   },
   {
     "id": 4,
-    "name": "Mochila Executiva USB",
-    "category": "Moda & Acessórios",
-    "price": 42.00,
-    "unit": "un.",
-    "minOrder": 20,
-    "isHot": false,
-    "isNew": true,
-    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=400&q=80"
-  },
-  {
-    "id": 5,
-    "name": "Garrafa Térmica Inox 500ml",
-    "category": "Casa & Decoração",
-    "price": 18.50,
-    "unit": "un.",
+    "name": "Porcelanato Calacata 80x80cm Eliane",
+    "category": "Revestimento",
+    "price": 89.90,
+    "unit": "m²",
     "minOrder": 50,
     "isHot": true,
     "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=400&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Argamassa ACIII Cinza 20kg Quartzolit",
+    "category": "Material Básico",
+    "price": 35.90,
+    "unit": "sc.",
+    "minOrder": 30,
+    "isHot": false,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=400&q=80"
   },
   {
     "id": 6,
-    "name": "Cabo USB-C Trançado 2m",
-    "category": "Eletrônicos",
-    "price": 4.90,
-    "unit": "un.",
-    "minOrder": 200,
+    "name": "Tubo PVC Esgoto 100mm 6m Tigre",
+    "category": "Hidráulica",
+    "price": 45.00,
+    "unit": "br.",
+    "minOrder": 20,
     "isHot": false,
-    "isNew": false,
-    "imageUrl": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=400&q=80"
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=80"
   }
 ]

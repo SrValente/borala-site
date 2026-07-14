@@ -4,7 +4,7 @@ import { useCart } from '@/context/CartContext';
 import './CartSidebar.css';
 
 export default function CartSidebar() {
-  const { isCartOpen, setIsCartOpen, cartItems, removeFromCart, cartTotal } = useCart();
+  const { isCartOpen, setIsCartOpen, cartItems, removeFromCart, cartTotal, updateQuantity } = useCart();
 
   if (!isCartOpen) return null;
 
@@ -13,7 +13,7 @@ export default function CartSidebar() {
       <div className="cart-overlay" onClick={() => setIsCartOpen(false)}></div>
       <div className="cart-sidebar">
         <div className="cart-header">
-          <h2>Seu Carrinho</h2>
+          <h2>Seu Carrinho B2B</h2>
           <button className="close-btn" onClick={() => setIsCartOpen(false)}>×</button>
         </div>
 
@@ -27,7 +27,22 @@ export default function CartSidebar() {
                 <div className="cart-item-info">
                   <h4>{item.name}</h4>
                   <p className="cart-item-price">R$ {item.price.toFixed(2).replace('.', ',')} / {item.unit}</p>
-                  <p className="cart-item-qty">Qtd: {item.quantity}</p>
+                  
+                  <div className="cart-quantity-controls">
+                    <button 
+                      className="qty-btn" 
+                      onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                      disabled={item.quantity <= item.minOrder}
+                    >-</button>
+                    <span className="qty-display">{item.quantity}</span>
+                    <button 
+                      className="qty-btn" 
+                      onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                    >+</button>
+                    <span className="min-order-note">Mínimo: {item.minOrder}</span>
+                  </div>
+
+                  <p className="cart-item-subtotal">Subtotal: R$ {(item.price * item.quantity).toFixed(2).replace('.', ',')}</p>
                 </div>
                 <button className="remove-btn" onClick={() => removeFromCart(item.id)}>🗑️</button>
               </div>
@@ -38,10 +53,10 @@ export default function CartSidebar() {
         {cartItems.length > 0 && (
           <div className="cart-footer">
             <div className="cart-total">
-              <span>Total Estimado:</span>
+              <span>Total do Orçamento:</span>
               <strong>R$ {cartTotal.toFixed(2).replace('.', ',')}</strong>
             </div>
-            <button className="btn btn-action w-full">Finalizar Orçamento</button>
+            <button className="btn btn-action w-full">Finalizar Pedido</button>
           </div>
         )}
       </div>
