@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 
 export default function Login() {
   return (
-    <main style={{ minHeight: '100vh', background: 'var(--bg-secondary)' }}>
+    <main style={{ minHeight: '100dvh', background: 'var(--bg-secondary)' }}>
       <Header />
       
       <div className="container" style={{ display: 'flex', justifyContent: 'center', padding: '80px 24px' }}>

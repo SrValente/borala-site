@@ -14,7 +14,7 @@ export default function CheckoutSuccess() {
   }, []);
 
   return (
-    <main style={{ minHeight: '100vh', background: 'var(--bg-secondary)', display: 'flex', flexDirection: 'column' }}>
+    <main style={{ minHeight: '100dvh', background: 'var(--bg-secondary)', display: 'flex', flexDirection: 'column' }}>
       <Header />
       
       <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexGrow: 1, padding: '40px 24px' }}>
